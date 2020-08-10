@@ -19,7 +19,9 @@ call plug#begin(expand('~/.vim/plugged'))
 	Plug 'plasticboy/vim-markdown'
 	Plug 'mattn/emmet-vim'
 	Plug 'vimwiki/vimwiki'
-	" Initialize plugin system
+	Plug 'airblade/vim-gitgutter'
+        Plug 'jiangmiao/auto-pairs'
+        " Initialize plugin system
 call plug#end()
 
 " calls for color material scheme
@@ -134,3 +136,7 @@ map <leader>tp :tabp<cr>        " To switch to previous tab.
 " set line numbers & indentation
 set backspace=indent,eol,start
 
+" gitgutter configs
+let g:gitgutter_enabled = 1
+let g:airline#extensions#wordcount#enabled = 1
+let g:airline#extensions#hunks#non_zero_only = 1
