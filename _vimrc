@@ -1,9 +1,7 @@
 " + ------------------------------------------------------------------------- +
 " + gVim Resource File                                                        + 
 " + ------------------------------------------------------------------------- +
-" Resource: https://www.youtube.com/watch?v=FuPFoVDdTtE&t=1487s
-" gVim directory: C:\Program Files (x86)\Vim
-" rc directory: C:\Users\oakespar\_vimrc
+Date of download 2020-12-17 Thu
 
 " + -------------------------------------------------------------------------- +
 " + gVim GUI Options 																													 +
@@ -112,13 +110,6 @@ nmap <leader>so :source $HOME\_vimrc<CR>
 nmap <leader>rc :vi $HOME\_vimrc<CR>
 nmap <leader>fn :enew<CR>
 nmap <leader>fd :cd %:h<CR>
-" directory mappings -------------------------
-nmap <leader>0 :vi $HOME\OneDrive - CLK Multifamily Management, LLC\00 Desk Notes<CR>
-nmap <leader>1 :vi $HOME\OneDrive - CLK Multifamily Management, LLC\01 Projects<CR>
-nmap <leader>2 :vi $HOME\OneDrive - CLK Multifamily Management, LLC\02 Daily Update<CR>
-nmap <leader>3 :vi $HOME\OneDrive - CLK Multifamily Management, LLC\03 Training<CR>
-nmap <leader>4 :vi $HOME\OneDrive - CLK Multifamily Management, LLC\04 Organization<CR>
-nmap <leader>5 :vi $HOME\OneDrive - CLK Multifamily Management, LLC\05 Shortcut Keys<CR>
 
 " + -------------------------------------------------------------------------- +
 " + PlugIns                                  																	 +
